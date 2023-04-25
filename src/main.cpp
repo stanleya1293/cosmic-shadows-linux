@@ -1,7 +1,8 @@
 #include <iostream>
-#include "engine/GameEngine.h"
+#include "../engine/GameWindow.h"
 
 int main(int argc, char* argv[]) {
-  
+  GameWindow game;
+  game.create("Cosmic Shadows");
   return 0;
 }

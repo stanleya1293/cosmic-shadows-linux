@@ -15,6 +15,7 @@ class GameWindow {
   const int defaultScreenW = 500;
   SDL_Window* window;
   SDL_Renderer* renderer;
+  bool windowOpen;
 };
 
 #endif
